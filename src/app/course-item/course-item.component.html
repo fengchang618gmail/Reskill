@@ -1,0 +1,8 @@
+<div class="course-item">
+  <img src='./assets/ReSkilling_logo.svg' width="150" height="50"/>
+  <div class="course-text">
+      <!-- <button class="course-name" (click)="getCourseDetail()">{{course.name}}</button> -->
+      <button class="course-name" [routerLink]="['/course-detail', course.name]">{{course.name}}</button>
+      <div class="course-description">{{course.description}}</div>
+  </div>
+</div>

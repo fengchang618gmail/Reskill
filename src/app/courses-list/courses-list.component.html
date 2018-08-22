@@ -1,0 +1,4 @@
+<app-course-item
+  *ngFor="let course of courses | search:'name,description':query"
+  [course] = course
+></app-course-item>

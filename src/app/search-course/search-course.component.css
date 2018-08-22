@@ -1,0 +1,13 @@
+.horizontal-center {
+    text-align: center;
+}
+
+.width-600 {
+    width: 600px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

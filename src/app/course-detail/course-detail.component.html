@@ -1,0 +1,27 @@
+<!-- <div class="course-item">
+  <img src='./assets/ReSkilling_logo.svg' width="150" height="50"/>
+  <div class="course-text">
+      <button class="course-name">{{course.name}}</button>
+      <div class="course-description">{{course.description}}</div>
+  </div>
+</div> -->
+<div class="course-detail">
+    <div *ngIf="course" class="course-detail">
+        <div class="course-name">{{course.name}}</div>
+        <div class="course-description">{{course.description}}</div>
+    </div>
+    
+    <div class="course course-name">you may be interested in</div>
+    <div *ngIf="course" class="course-detail">
+        <div class="course-name">{{course.name}} 1</div>
+        <div class="course-description">{{course.description}}</div>
+    </div>
+    <div *ngIf="course" class="course-detail">
+        <div class="course-name">{{course.name}} 2</div>
+        <div class="course-description">{{course.description}}</div>
+    </div>
+    <div *ngIf="course" class="course-detail">
+        <div class="course-name">{{course.name}} 3</div>
+        <div class="course-description">{{course.description}}</div>
+    </div>
+</div>

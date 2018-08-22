@@ -1,0 +1,186 @@
+{
+    "elements": [
+        {
+            "courseType": "v2.ondemand",
+            "description": "Gamification is the application of game elements and digital game design techniques to non-game problems, such as business and social impact challenges. This course will teach you the mechanisms of gamification, why it has such tremendous potential, and how to use it effectively. For additional information on the concepts described in the course, you can purchase Professor Werbach's book For the Win: How Game Thinking Can Revolutionize Your Business in print or ebook format in several languages.",
+            "domainTypes": [
+                {
+                    "subdomainId": "design-and-product",
+                    "domainId": "computer-science"
+                },
+                {
+                    "domainId": "business",
+                    "subdomainId": "marketing"
+                }
+            ],
+            "id": "69Bku0KoEeWZtA4u62x6lQ",
+            "slug": "gamification",
+            "primaryLanguages": [
+                "en"
+            ],
+            "name": "Gamification",
+            "courseStatus": "launched"
+        },
+        {
+            "courseType": "v2.ondemand",
+            "description": "This course will cover the steps used in weighting sample surveys, including methods for adjusting for nonresponse and using data external to the survey for calibration.  Among the techniques discussed are adjustments using estimated response propensities, poststratification, raking, and general regression estimation.  Alternative techniques for imputing values for missing items will be discussed.  For both weighting and imputation, the capabilities of different statistical software packages will be covered, including R®, Stata®, and SAS®.",
+            "domainTypes": [
+                {
+                    "subdomainId": "data-analysis",
+                    "domainId": "data-science"
+                },
+                {
+                    "domainId": "social-sciences",
+                    "subdomainId": "governance-and-society"
+                }
+            ],
+            "id": "0HiU7Oe4EeWTAQ4yevf_oQ",
+            "slug": "missing-data",
+            "primaryLanguages": [
+                "en"
+            ],
+            "name": "Dealing With Missing Data",
+            "courseStatus": "launched"
+        },
+        {
+            "courseType": "v2.ondemand",
+            "description": "The vital signs – heart rate, blood pressure, body temperature, respiration rate, and pain – communicate important information about the physiological status of the human body. In this six-part course we explore the anatomy and physiology underlying the vital signs so that you will develop a systematic, integrated understanding of how the body functions. Relevant body systems are reviewed including cardiovascular and respiratory, followed by explanations of how the function of these systems affects vital signs. We discuss normal ranges, normal variants, and the mechanisms that underlie changes in the objective measurement of vital signs. The course also includes demonstrations of appropriate techniques for measuring vital signs in yourself and others.\n\nThe course is designed for a broad, general audience but will be particularly interesting for individuals working in healthcare, those considering a career as a healthcare professional, lay caregivers, those with an interest in personal health and fitness, or anyone who simply wants to understand how the body functions.",
+            "domainTypes": [
+                {
+                    "subdomainId": "medicine-and-healthcare",
+                    "domainId": "life-sciences"
+                },
+                {
+                    "subdomainId": "biology",
+                    "domainId": "life-sciences"
+                }
+            ],
+            "id": "5zjIsJq-EeW_wArffOXkOw",
+            "slug": "vital-signs",
+            "primaryLanguages": [
+                "en"
+            ],
+            "name": "Vital Signs: Understanding What the Body Is Telling Us",
+            "courseStatus": "launched"
+        },
+        {
+            "courseType": "v2.ondemand",
+            "description": "Welcome to Modern Art & Ideas! This course is designed to help anyone interested in learning more about modern and contemporary art. Themes can provide an effective structure for engaging with art. In this course, you will explore four themes that educators at The Museum of Modern Art use frequently in their teaching: Places & Spaces, Art & Identity, Transforming Everyday Objects, and Art & Society. Through videos, slideshows, and a variety of resources, readings, and activities, you will explore the content and context of works of art in MoMA’s collection.\n\nLearners will…\n\n- Explore works of modern and contemporary art through a variety of accessible and relevant themes.\n- Hear directly from artists about their ideas and processes.\n- Gain exposure to a range of digital resources available for continually engaging with works of art.",
+            "domainTypes": [
+                {
+                    "domainId": "arts-and-humanities",
+                    "subdomainId": "music-and-art"
+                }
+            ],
+            "id": "v9CQdBkhEeWjrA6seF25aw",
+            "slug": "modern-art-ideas",
+            "primaryLanguages": [
+                "en"
+            ],
+            "name": "Modern Art & Ideas",
+            "courseStatus": "launched"
+        },
+        {
+            "courseType": "v2.ondemand",
+            "description": "This is an introductory astronomy survey class that covers our understanding of the physical universe and its major constituents, including planetary systems, stars, galaxies, black holes, quasars, larger structures, and the universe as a whole.",
+            "domainTypes": [
+                {
+                    "domainId": "physical-science-and-engineering",
+                    "subdomainId": "physics-and-astronomy"
+                }
+            ],
+            "id": "QgmoVdT2EeSlhSIACx2EBw",
+            "slug": "evolvinguniverse",
+            "primaryLanguages": [
+                "en"
+            ],
+            "name": "The Evolving Universe",
+            "courseStatus": "launched"
+        },
+        {
+            "courseType": "v2.ondemand",
+            "description": "How are international power relations changing and how can global peace and stability be maintained? This course familiarizes you with some main theories of international relations, shows how the global order is gradually changing and discusses how selected international and regional organizations contribute to the maintenance of global peace and security. You learn what research findings tell us in terms of the capacity of international organizations and actors to help prevent or stop violent conflict, what tools are used to negotiate agreements and how foundations for sustainable peace are best created. We will also focus on the role of the European Union in terms of diplomacy and efforts to prevent conflict, the North Atlantic Treaty Organization and the contribution of organizations such as the African Union to the prevention of conflict and war. We will study the United Nations Security Council and see in which ways its membership could be adapted to more accurately reflect the power relations of the current global order. Through quizzes and exercises testing your knowledge of these subjects, you will understand crucial concepts and get insights into how the academic study of international relations and international organization contributes to the search for global stability and peace in practice.",
+            "domainTypes": [
+                {
+                    "domainId": "social-sciences",
+                    "subdomainId": "governance-and-society"
+                },
+                {
+                    "domainId": "arts-and-humanities",
+                    "subdomainId": "history"
+                }
+            ],
+            "id": "vwcoxOyuEeWLaBLI8fdMlw",
+            "slug": "changing-global-order",
+            "primaryLanguages": [
+                "en"
+            ],
+            "name": "The Changing Global Order",
+            "courseStatus": "launched"
+        },
+        {
+            "courseType": "v2.ondemand",
+            "description": "This is a course aimed at making you a better designer. The course marries theory and practice, as both are valuable in improving design performance. Lectures and readings will lay out the fundamental concepts that underpin design as a human activity. Weekly design challenges test your ability to apply those ideas to solve real problems. The course is deliberately broad - spanning all domains of design, including architecture, graphics, services, apparel, engineered goods, and products. The emphasis of the course is the basic design process: define, explore, select, and refine. You, the student, bring to the course your particular interests and expertise related to, for instance, engineering, furniture, fashion, architecture, or products. In prior sessions of the course about half of the participants were novices and about half had prior professional design expertise. Both groups seem to benefit substantially from the course. All project work is evaluated by your peers -- and indeed, you will also be a peer reviewer. This format allows you to see an interesting collection of projects while getting useful feedback on your own project.",
+            "domainTypes": [
+                {
+                    "domainId": "business",
+                    "subdomainId": "entrepreneurship"
+                },
+                {
+                    "subdomainId": "mechanical-engineering",
+                    "domainId": "physical-science-and-engineering"
+                }
+            ],
+            "id": "FlptMGk3EeSiViIACw8GlA",
+            "slug": "design",
+            "primaryLanguages": [
+                "en"
+            ],
+            "name": "Design: Creation of Artifacts in Society",
+            "courseStatus": "launched"
+        },
+        {
+            "courseType": "v2.ondemand",
+            "description": "Do you want to know how robots work?  Are you interested in robotics as a career?  Are you willing to invest the effort to learn fundamental mathematical modeling techniques that are used in all subfields of robotics?\n\nIf so, then the \"Modern Robotics:  Mechanics, Planning, and Control\" specialization may be for you.  This specialization, consisting of six short courses, is serious preparation for serious students who hope to work in the field of robotics or to undertake advanced study.  It is not a sampler.\n\nIn Course 1 of the specialization, Foundations of Robot Motion, you will learn fundamental material regarding robot configurations, for both serial robot mechanisms and robots with closed chains.  You will learn about configuration space (C-space), degrees of freedom, C-space topology, implicit and explicit representations of configurations, and holonomic and nonholonomic constraints.  You will also learn how to represent spatial velocities and forces as twists and wrenches.  This material is at the core of the study of anything that moves (e.g., robots).\n\nThis course follows the textbook \"Modern Robotics:  Mechanics, Planning, and Control\" (Lynch and Park, Cambridge University Press 2017).  You can purchase the book or use the free preprint pdf.  You will build on a library of robotics software in the language of your choice (among Python, Mathematica, and MATLAB) and use the free cross-platform robot simulator V-REP, which allows you to work with state-of-the-art robots in the comfort of your own home and with zero financial investment.",
+            "domainTypes": [
+                {
+                    "subdomainId": "mechanical-engineering",
+                    "domainId": "physical-science-and-engineering"
+                },
+                {
+                    "domainId": "computer-science",
+                    "subdomainId": "software-development"
+                }
+            ],
+            "id": "rAlpSmWgEeenbhIEmtW1dA",
+            "slug": "modernrobotics-course1",
+            "primaryLanguages": [
+                "en"
+            ],
+            "name": "Modern Robotics, Course 1:  Foundations of Robot Motion",
+            "courseStatus": "launched"
+        },
+        {
+            "courseType": "v2.ondemand",
+            "description": "Large-scale biology projects such as the sequencing of the human genome and gene expression surveys using RNA-seq, microarrays and other technologies have created a wealth of data for biologists. However, the challenge facing scientists is analyzing and even accessing these data to extract useful information pertaining to the system being studied. This course focuses on employing existing bioinformatic resources – mainly web-based programs and databases – to access the wealth of data to answer questions relevant to the average biologist, and is highly hands-on. \n\nTopics covered include multiple sequence alignments, phylogenetics, gene expression data analysis, and protein interaction networks, in two separate parts. \n\nThe first part, Bioinformatic Methods I (this one), deals with databases, Blast, multiple sequence alignments, phylogenetics, selection analysis and metagenomics. \n\nThis, the second part, Bioinformatic Methods II, covers motif searching, protein-protein interactions, structural bioinformatics, gene expression data analysis, and cis-element predictions. \n\nThis pair of courses is useful to any student considering graduate school in the biological sciences, as well as students considering molecular medicine. Both provide an overview of the many different bioinformatic tools that are out there. \n\nThese courses are based on one taught at the University of Toronto to upper-level undergraduates who have some understanding of basic molecular biology. If you're not familiar with this, something like https://learn.saylor.org/course/bio101 might be helpful. No programming is required for this course.",
+            "domainTypes": [
+                {
+                    "domainId": "life-sciences",
+                    "subdomainId": "bioinformatics"
+                }
+            ],
+            "id": "5uXCfFu2EeSU0SIACxCMgg",
+            "slug": "bioinformatics-methods-1",
+            "primaryLanguages": [
+                "en"
+            ],
+            "name": "Bioinformatic Methods I",
+            "courseStatus": "launched"
+        }
+    ],
+    "paging": {
+        "next": "9",
+        "total": 2936
+    },
+    "linked": {}
+}

@@ -1,0 +1,17 @@
+<div class="horizontal-center">
+  <img src='./assets/ReSkilling_logo.svg' width="600" height="200"/>
+</div>
+
+<form class="horizontal-center">
+  <mat-icon>search</mat-icon>
+  <mat-form-field class="width-600">
+    <input matInput placeholder="What do you want to learn?" [(ngModel)]="searchKeyWords" name="searchKeyWords">
+  </mat-form-field>
+</form>
+
+<!-- <div *ngFor="let course of courses | search:'id,text':searchKeyWords">{{item.text}}</div> -->
+
+<app-courses-list
+  [query]="searchKeyWords"
+></app-courses-list>
+
