@@ -1,17 +1,20 @@
-<div class="horizontal-center">
+<!-- <div class="horizontal-center">
   <img src='./assets/ReSkilling_logo.svg' width="600" height="200"/>
-</div>
+</div> -->
 
 <form class="horizontal-center">
   <mat-icon>search</mat-icon>
   <mat-form-field class="width-600">
-    <input matInput placeholder="What do you want to learn?" [(ngModel)]="searchKeyWords" name="searchKeyWords">
+    <input matInput placeholder="What do you want to learn?" [(ngModel)]="searchKeyWord" name="searchKeyWord" (ngModelChange)="onSearch()">
   </mat-form-field>
 </form>
 
-<!-- <div *ngFor="let course of courses | search:'id,text':searchKeyWords">{{item.text}}</div> -->
+<!-- <div *ngFor="let course of courses | search:'id,text':searchKeyWord">{{item.text}}</div> -->
 
-<app-courses-list
-  [query]="searchKeyWords"
-></app-courses-list>
+<div *ngIf="courses">
+  <app-courses-list
+    [courses] = "courses"
+  ></app-courses-list>
+</div>
+
 

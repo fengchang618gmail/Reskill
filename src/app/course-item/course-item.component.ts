@@ -15,8 +15,4 @@ export class CourseItemComponent implements OnInit {
   ngOnInit() {
   }
 
-  getCourseDetail(): void {
-    this.router.navigate(['/course-detail', this.course.name]);
-  }
-
 }

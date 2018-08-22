@@ -9,16 +9,11 @@ import { SearchPipe } from '../shared/search-course.pipe';
   styleUrls: ['./courses-list.component.css']
 })
 export class CoursesListComponent implements OnInit {
-  @Input() query: string;
-  courses: Array<Course>;
+  @Input() courses: Array<Course> = [];
 
   constructor(private coursesService: CoursesService) { }
 
   ngOnInit() {
-    this.coursesService.getJSON().subscribe(res => {
-      console.log(res);
-      this.courses = res.elements;
-    });
   }
 
 }

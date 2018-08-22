@@ -12,7 +12,7 @@ import { CoursesService } from '../courses.service';
 })
 export class CourseDetailComponent implements OnInit {
   course: Observable<Course>;
-  name: string;
+  id: string;
 
   constructor(
     private route: ActivatedRoute,
@@ -23,10 +23,12 @@ export class CourseDetailComponent implements OnInit {
 
   ngOnInit() {
     this.route.params.subscribe(params => {
-      this.name = params['name'];
-      this.coursesService.getCourseByName(this.name).subscribe(
-        res => {
-          this.course = res;
+      this.id = params['id'];
+      this.coursesService.getCourseById(this.id).subscribe(
+        course => {
+          this.course = course;
+        }, error => {
+          console.log(error);
         });
    });
 

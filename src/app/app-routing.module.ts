@@ -8,7 +8,7 @@ import { SearchCourseComponent } from './search-course/search-course.component';
 
 const appRoutes: Routes = [
     { path: 'course-search', component: SearchCourseComponent },
-    { path: 'course-detail/:name', component: CourseDetailComponent },
+    { path: 'course-detail/:id', component: CourseDetailComponent },
     { path: '',   redirectTo: '/course-search', pathMatch: 'full' },
     // { path: '**', component: PageNotFoundComponent }
 ];
