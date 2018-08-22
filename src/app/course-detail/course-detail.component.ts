@@ -12,6 +12,7 @@ import { CoursesService } from '../courses.service';
 })
 export class CourseDetailComponent implements OnInit {
   course: Observable<Course>;
+  courses: Observable<Array<Course>>;
   id: string;
 
   constructor(
@@ -24,12 +25,21 @@ export class CourseDetailComponent implements OnInit {
   ngOnInit() {
     this.route.params.subscribe(params => {
       this.id = params['id'];
+
       this.coursesService.getCourseById(this.id).subscribe(
         course => {
           this.course = course;
         }, error => {
           console.log(error);
         });
+
+      this.coursesService.getRecommendCourses(this.id, 1, 3).subscribe(
+        courses => {
+          this.courses = courses.body;
+        }, error => {
+          console.log(error);
+        }
+      );
    });
 
   }

@@ -12,7 +12,7 @@
     </div>
     
     <div class="course course-name">you may be interested in</div>
-    <div *ngIf="course" class="course-detail">
+    <!-- <div *ngIf="course" class="course-detail">
         <div class="course-name">{{course.name}} 1</div>
         <div class="course-description">{{course.description}}</div>
     </div>
@@ -23,5 +23,8 @@
     <div *ngIf="course" class="course-detail">
         <div class="course-name">{{course.name}} 3</div>
         <div class="course-description">{{course.description}}</div>
+    </div> -->
+    <div>
+        <app-courses-list *ngIf="courses" [courses]="courses"></app-courses-list>
     </div>
 </div>

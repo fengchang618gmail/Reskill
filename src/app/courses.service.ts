@@ -24,6 +24,13 @@ export class CoursesService {
     return this.http.get(`${this.courseUrl}/coursesearch/${searchKeyWord}`, { params, observe: 'response' });
   }
 
+  getRecommendCourses(courseId: string, start: number, limit: number): Observable<any> {
+    const params: HttpParams = new HttpParams()
+    .set('start', start.toString())
+    .set('limit', limit.toString());
+    return this.http.get(`${this.courseUrl}/recommend/${courseId}`, { params, observe: 'response' });
+  }
+
   getCourseByName(name: string): Observable<any> {
     return this.http.get<any>('./assets/mock-courses.json').pipe(
       map(courses => courses.elements.find(course => course.name === name))
