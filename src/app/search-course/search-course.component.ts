@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 import { SearchPipe } from '../shared/search-course.pipe';
 import { CoursesService } from '../courses.service';
 import { Course } from '../course-item/course-item-model';
@@ -12,9 +13,17 @@ export class SearchCourseComponent implements OnInit {
   searchKeyWord: string;
   courses: Array<Course>;
 
-  constructor(private coursesService: CoursesService) { }
+  constructor(
+    private route: ActivatedRoute,
+    private router: Router,
+    private coursesService: CoursesService) { }
 
   ngOnInit() {
+    this.route.params.subscribe(params => {
+      this.searchKeyWord = params['searchKeyWord'];
+
+      this.onSearch();
+   });
   }
 
   onSearch() {

@@ -7,18 +7,15 @@ import { CourseDetailComponent } from './course-detail/course-detail.component';
 import { SearchCourseComponent } from './search-course/search-course.component';
 
 const appRoutes: Routes = [
-    { path: 'course-search', component: SearchCourseComponent },
+    { path: 'course-search/:searchKeyWord', component: SearchCourseComponent },
     { path: 'course-detail/:id', component: CourseDetailComponent },
-    { path: '',   redirectTo: '/course-search', pathMatch: 'full' },
+    // { path: '',   redirectTo: '/course-search/skill', pathMatch: 'full' },
     // { path: '**', component: PageNotFoundComponent }
 ];
 
 @NgModule({
   imports: [
-    RouterModule.forRoot(
-      appRoutes,
-      { enableTracing: true } // <-- debugging purposes only
-    )
+    RouterModule.forRoot(appRoutes)
   ],
   exports: [
     RouterModule
