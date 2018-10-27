@@ -22,14 +22,13 @@ export class SearchCourseComponent implements OnInit {
     this.route.params.subscribe(params => {
       this.searchKeyWord = params['searchKeyWord'];
 
-      this.onSearch();
+      this.onSearch(0, 3);
    });
   }
 
-  onSearch() {
-    console.log(this.searchKeyWord);
+  onSearch(start: number, limit: number) {
     if (this.searchKeyWord.trim()) {
-      this.coursesService.getCourses(this.searchKeyWord, 0, 3).subscribe(courses => {
+      this.coursesService.getCourses(this.searchKeyWord, start, limit).subscribe(courses => {
       this.courses = courses.body;
         console.log(this.courses);
       }, error => {
@@ -38,6 +37,12 @@ export class SearchCourseComponent implements OnInit {
     } else {
       this.courses = [];
       console.log(this.courses);
+    }
+  }
+
+  showMoreCourse(event) {
+    if (event === 'show-more-courses') {
+      this.onSearch(0, 10);
     }
   }
 

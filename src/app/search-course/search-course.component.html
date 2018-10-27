@@ -14,6 +14,8 @@
 <div *ngIf="courses">
   <app-courses-list
     [courses] = "courses"
+    [searchKeyWord] = "searchKeyWord"
+    (showMore) = "showMoreCourse($event)"
   ></app-courses-list>
 </div>
 

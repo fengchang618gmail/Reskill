@@ -1,19 +1,26 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { CoursesService } from '../courses.service';
 import { Course } from '../course-item/course-item-model';
-import { SearchPipe } from '../shared/search-course.pipe';
 
 @Component({
   selector: 'app-courses-list',
   templateUrl: './courses-list.component.html',
-  styleUrls: ['./courses-list.component.css']
+  styleUrls: ['./courses-list.component.scss']
 })
 export class CoursesListComponent implements OnInit {
   @Input() courses: Array<Course> = [];
+  @Input() searchKeyWord: string;
+  @Output() showMore = new EventEmitter<string>();
 
-  constructor(private coursesService: CoursesService) { }
+  constructor(
+    private coursesService: CoursesService,
+  ) { }
 
   ngOnInit() {
+  }
+
+  showMoreCourses() {
+    this.showMore.emit('show-more-courses');
   }
 
 }

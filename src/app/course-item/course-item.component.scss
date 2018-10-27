@@ -1,0 +1,28 @@
+.course-item {
+    display: flex;
+    align-items: center;
+
+    .course {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+
+        .name {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .break-line {
+            word-break: break-all;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            /* autoprefixer: off */
+            -webkit-box-orient: vertical;
+            /* autoprefixer: on */
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+            white-space: normal !important;
+        }
+    }
+}

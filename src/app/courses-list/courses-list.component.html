@@ -1,7 +1,23 @@
+<mat-nav-list>
+  <h3 mat-subheader>Top 3 Online Training for {{searchKeyWord}}</h3>
+  <mat-list-item *ngFor="let course of courses" routerLink="/training-detail/{{course.id}}">
+    <app-course-item [course]="course"></app-course-item>
+    <mat-divider></mat-divider>
+  </mat-list-item>
 
-  <app-course-item
-  *ngFor="let course of courses"
-  [course] = "course"
-></app-course-item>
+  <div class="show-more">
+    <button mat-flat-button color="accent" (click)="showMoreCourses()">Show More</button>
+  </div>
+</mat-nav-list>
 
+<mat-nav-list>
+  <h3 mat-subheader>Onsite Training for {{searchKeyWord}}</h3>
+  <mat-list-item>
+    <img matListAvatar src="https://tse4-mm.cn.bing.net/th?id=OIP.jJfwkVD6CtP2jlUubuTXdQAAAA&pid=Api" alt="" width="100%" />
+    <div mat-line>
+      <span class="name">Design Pattern</span>
+    </div>
+    <mat-divider></mat-divider>
+  </mat-list-item>
+</mat-nav-list>
 

@@ -1,7 +1,8 @@
 <div class="course-item">
-  <img src='./assets/ReSkilling_logo.svg' width="150" height="50"/>
-  <div class="course-text">
-      <button class="course-name" [routerLink]="['/training-detail', course.id]">{{course.name}}</button>
-      <div class="course-description">{{course.description}}</div>
+  <img matListAvatar src={{course.photoUrl}} alt={{course.name}} width="100%" />
+  <div mat-line class="course">
+    <span class="name break-line">{{course.name}}</span>
+    <span class="break-line">{{course.description}}</span>
   </div>
 </div>
+
