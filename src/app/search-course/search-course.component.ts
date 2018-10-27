@@ -29,7 +29,7 @@ export class SearchCourseComponent implements OnInit {
   onSearch() {
     console.log(this.searchKeyWord);
     if (this.searchKeyWord.trim()) {
-      this.coursesService.getCourses(this.searchKeyWord, 0, 10).subscribe(courses => {
+      this.coursesService.getCourses(this.searchKeyWord, 0, 3).subscribe(courses => {
       this.courses = courses.body;
         console.log(this.courses);
       }, error => {
