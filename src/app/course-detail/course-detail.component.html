@@ -2,7 +2,7 @@
     <div class="name">{{course.name}}</div>      
     <div class="course-img"><img src={{course.photoUrl}} alt={{course.name}} width="450px" /></div>
     <div class="desc">{{course.description}}</div>
-    <div><button mat-flat-button color="accent" (click)="showMoreCourses()">Enroll now!</button></div>
+    <button mat-flat-button color="accent" (click)="getCourseLink(course)">Enroll now!</button>
 </div>
 
 <mat-nav-list *ngIf="courses">

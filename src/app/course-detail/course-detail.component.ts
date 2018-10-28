@@ -43,4 +43,8 @@ export class CourseDetailComponent implements OnInit {
 
   }
 
+  getCourseLink(course) {
+    window.open(`https://www.coursera.org/learn/${course.slug}`, '_blank');
+  }
+
 }
